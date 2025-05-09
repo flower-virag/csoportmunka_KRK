@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    background-image:url(kepek/green-leaves-forming-recycling-symbol-dark-background_239711-6566.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height: 100vh;
+    background-size:cover;
+   font-size: large;
+    
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h1{
+    font-size: 45px;
+    border: 2px solid greenyellow;
+    color: white
+    border-radius: 35px;
+    padding: 40px 60px;
+    text-align: center;
+    margin: 65px;
+    margin-bottom: 0;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 60px;
+    border: 2px solid greenyellow;
+    border-radius: 15%;
+    padding: 4px 6px;
+}
+
+a:hover{
+    color: rgb(64, 207, 95);
+}
+
+nav{
+    text-align: center;
+    padding: 40px 60px;
+}
