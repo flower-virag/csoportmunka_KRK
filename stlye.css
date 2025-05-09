@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url(viz.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
+
+h1 {
+    display: inline-block;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 55px;
+    padding: 40px 60px;
+    margin: 65px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+section {
+        
+
+
+
+}
