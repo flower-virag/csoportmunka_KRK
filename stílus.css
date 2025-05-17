@@ -1,75 +1,83 @@
-body{
-    background-color: black;
-
-    color: white;
-    background-image:url(kepek/green-leaves-forming-recycling-symbol-dark-background_239711-6566.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    min-height: 100vh;
-    background-size:cover;
-   font-size: large;
-    
-
-}
-html,body{
+body {
+    background-image: url(kepek/megujulo_energia.jpg);
+    background-color: lightyellow;
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
-}
-h1{
-    font-size: 45px;
-    border: 2px solid greenyellow;
 }
 
-
-h1{
-    font-size: 45px;
-    border: 2px solid blue;
-    padding: 40px 60px;
+h1 {
+    background-color: white;
+    font-size: 50px;
+    border: 4px solid orange;
+    border-radius: 30px;
+    padding: 30px 50px;
     text-align: center;
-    margin: 65px;
-    margin-bottom: 0;
-
-}
-
-
-
- 
-
-
-a{
-    color:white;
-    text-decoration: none;
-    font-size: 30px;
     margin: 60px;
-    border: 2px solid greenyellow;
-    border-radius: 15%;
-    padding: 4px 6px;
+    margin-bottom: 0;
 }
 
-a:hover{
-
-    color: rgb(61, 224, 74);
-
-}
-
-nav{
-    text-align: center;
-    padding: 40px 60px;
-
-
-}
-
-article{
+nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(255, 255, 255);
-    background-image:url(kepek/fohatter.png);
-    background-color: rgb(131, 181, 238);
-    border: 4px solid blue;
-    border-radius: 110px;
-    padding: 50px 70px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(255, 245, 200);
+    border: 3px solid goldenrod;
+    border-radius: 90px;
+    padding: 40px 60px;
     text-align: center;
-    margin: 80px;
+    margin: 60px;
+    margin-top: 0;
+}
 
+nav a {
+    border: 2px solid darkorange;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 255, 230);
+    border: 3px solid goldenrod;
+    border-radius: 90px;
+    padding: 40px 60px;
+    text-align: center;
+    margin: 60px;
+}
+
+img {
+    width: 85%;
+    border-radius: 30px;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid darkorange;
+}
+
+@media screen and (max-width: 700px) {
+    article {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    article {
+        grid-template-columns: 1fr;
+    }
 }
