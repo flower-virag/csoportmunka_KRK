@@ -41,6 +41,14 @@ nav a {
     font-weight: bold;
 }
 
+a:hover{
+    color: rgb(0, 15, 0);
+}
+
+section:hover{
+    color:rgb(255, 0, 0);
+}
+
 article {
     display: grid;
     grid-template-columns: 1fr 1fr;

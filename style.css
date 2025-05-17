@@ -3,7 +3,7 @@ body {
   background-color: lightgreen;
   background-size: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 h1 {
@@ -21,7 +21,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
-  background-image: url(kepek/fa_hatter.jpg);
   background-size: 100%;
   background-color: rgb(180, 255, 180);
   border: 4px solid green;
@@ -37,18 +36,25 @@ nav a {
   border-radius: 40px;
   padding: 20px 30px;
   background-color: lightgreen;
-  color: black;
+  color: rgb(0, 0, 0);
   max-width: max-content;
   max-height: max-content;
   text-decoration: none;
   font-weight: bold;
 }
 
+section:hover{
+  color: rgb(255, 0, 0);
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
+}
+
 article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: rgb(235, 255, 235);
-  background-image: url(kepek/fa_hatter.jpg);
   background-size: 100%;
   border: 4px solid green;
   border-radius: 110px;
