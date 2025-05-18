@@ -1,17 +1,20 @@
 body {
   background-image: url(kepek/termeszet.jpg);
+  background-repeat: no-repeat;
   background-color: lightgreen;
-  background-size: 100%;
+  background-size: 200%;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   background-color: white;
-  font-size: 55px;
+  font-size: 50px;
   border: 4px dashed darkgreen;
   border-radius: 40px;
-  padding: 50px 70px;
+  padding: 40px 60px;
   text-align: center;
   margin: 80px;
   margin-bottom: 0;
@@ -19,13 +22,12 @@ h1 {
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 25px;
-  background-size: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
   background-color: rgb(180, 255, 180);
   border: 4px solid green;
   border-radius: 110px;
-  padding: 50px 70px;
+  padding: 40px 60px;
   text-align: center;
   margin: 80px;
   margin-top: 0;
@@ -36,25 +38,17 @@ nav a {
   border-radius: 40px;
   padding: 20px 30px;
   background-color: lightgreen;
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
   font-weight: bold;
-
 }
 
-section:hover{
-  color: rgb(255, 0, 0);
+nav a:hover {
+  color: white;
 }
 
-a:hover{
-  color: rgb(255, 255, 255);
-}
-
-article {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+section {
   background-color: rgb(235, 255, 235);
-  background-size: 100%;
   border: 4px solid green;
   border-radius: 110px;
   padding: 50px 70px;
@@ -62,25 +56,22 @@ article {
   margin: 80px;
 }
 
-img {
-  width: 85%;
-  border-radius: 50%;
+.galeria {
+  text-align: center;
+  margin-top: 40px;
 }
 
-footer {
-  display: grid;
-  place-items: center;
-  margin-top: 50px;
+img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 30px;
 }
+
 
 @media screen and (max-width: 700px) {
   article {
-      grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  article {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
