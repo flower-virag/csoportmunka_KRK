@@ -81,10 +81,14 @@ footer img {
     article {
         grid-template-columns: 1fr 1fr;
     }
+    nav{
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 400px) {
     article {
         grid-template-columns: 1fr;
     }
+    
 }

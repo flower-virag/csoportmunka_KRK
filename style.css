@@ -2,7 +2,7 @@ body {
   background-image: url(kepek/termeszet.jpg);
   background-color: lightgreen;
   background-size: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   color: black;
 }
 
@@ -42,11 +42,11 @@ nav a {
 
 }
 
-section:hover{
+section:hover {
   color: rgb(255, 0, 0);
 }
 
-a:hover{
+a:hover {
   color: rgb(255, 255, 255);
 }
 
@@ -75,12 +75,16 @@ footer {
 
 @media screen and (max-width: 700px) {
   article {
-      grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav {
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 400px) {
   article {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }

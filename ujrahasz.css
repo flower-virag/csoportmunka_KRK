@@ -41,12 +41,12 @@ nav a {
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: rgb(0, 15, 0);
 }
 
-section:hover{
-    color:rgb(255, 0, 0);
+section:hover {
+    color: rgb(255, 0, 0);
 }
 
 article {
@@ -82,6 +82,11 @@ footer img {
     article {
         grid-template-columns: 1fr 1fr;
     }
+
+    nav {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
